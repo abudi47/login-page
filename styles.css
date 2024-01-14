@@ -1,0 +1,158 @@
+body{
+  height: 100vh;
+  width : 100%;
+  align-items: center;
+  font-family: sans-serif;
+  
+  background: url("https://www.bhmpics.com/downloads/islamic-background-wallpapers/38.189378.jpg") center / cover no-repeat;
+
+
+}
+
+.form-area{
+  display: flex;
+  position: relative;
+  height : 550px;
+  width: 450px;
+  left:50%;
+  top:48%;
+  padding: 30px 30px;  
+  background: url("https://i.pinimg.com/564x/e5/9c/08/e59c08a828a87d4aefba48cf8c7faa18.jpg") center / cover no-repeat;
+  opacity: 90%;
+  color:hsl(0, 0%, 0%);
+  border: 2px solid rgb(37, 37, 37);
+  transform: translate(-50% , -50%);
+  border-radius: 100px;
+  
+}
+
+
+
+.form-details {
+  max-width : 330px ;
+  position: absolute;
+  top:10px;
+
+}
+
+.form-box h2 ,h1{
+
+  margin-bottom: 10px;
+  position: relative;
+  left:60%;
+  color: hsl(0, 0%, 0%);
+  
+}
+
+.new{
+  text-decoration: double;
+  text-shadow: 4cm;
+  text-align: center;
+  padding: 22px;
+  position: relative;
+  left:50px;
+}
+
+.formcontent {
+  width : 100%;
+  padding: 35px;
+  display: flex;
+}
+
+.input-f {
+  width: 100%;
+  height : 20px;
+  margin-top : 20px;
+  position: absolute;
+  bottom:52%;
+  left: 5px;
+  text-align: center;
+
+  
+}
+
+input[type="email"] {
+  
+  border:2px solid black;
+  border-radius: 38px;
+  padding: 6px;
+}
+input[type="password"]{
+  border:2px solid black;
+  border-radius: 38px;
+  padding: 6px;
+  
+}
+input[type="text"]{
+  margin-bottom: 13px;
+  border:2px solid black;
+  border-radius: 38px;
+  padding: 6px;
+  
+}
+
+.forgot-pass{
+  display : inline-flex;
+  position: absolute;
+  bottom:207px;
+  left:210px;
+  font-size: 0.351cm ;
+  
+  
+  
+}
+
+.login{
+  width : 160px;
+  position: relative;
+  top:383px;
+  outline: none;
+  border:none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 6px 0;
+  margin : 0px 0;
+  color: hwb(0 100% 0%);
+  cursor: pointer;
+  background: hsl(187, 100%, 26%);
+  left:151px;
+  border-radius: 38px;
+
+}
+
+.form-box a:hover {
+  text-decoration: underline;
+} 
+
+.bottom-link {
+  text-align: center;
+  position:relative;
+  top:500px;
+  left:120px;
+
+
+
+}
+.sign {
+  position: relative;
+  bottom: 50px;
+  width : 160px;
+  position: relative;
+  top:480px;
+  outline: none;
+  border:none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 6px 0;
+  margin : 0px 0;
+  color: hwb(0 100% 0%);
+  cursor: pointer;
+  background: hsl(187, 100%, 26%);
+  left:151px;
+  border-radius: 38px;
+
+
+}
+
+
+
